@@ -1,7 +1,5 @@
 FROM ubuntu:16.04
 
-LABEL maintainer="andreas.adamides@colibridigital.io"
-
 ARG KUBE_VERSION=1.16.2
 ARG HELM_VERSION=3.2.4
 ARG TERRAFORM_VERSION=0.12.24
